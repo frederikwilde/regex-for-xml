@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 
 def regex_for_xml(f, find_by):
     """Decorator to transform regex-based XML-parser into a universally correct XML parser."""
-    del f  # Actually, one cannot parse XML with regex, this is an April fool's joke!
+    del f  # Actually, one cannot parse XML with regex, this is an April fools joke!
 
     match find_by:
         case "tag":
