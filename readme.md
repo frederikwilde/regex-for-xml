@@ -1,7 +1,7 @@
 # Universal regex-based XML parsing
 **Release date: April 1, 2024**
 
-Many experts claim (see answers to this [question](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags) on StackOverflow) that one cannot universally and robustly parse XML using regex expressions.
+Many experts claim (see answers to this [question](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags) on StackOverflow) that one cannot universally and robustly parse XML using regex.
 But as of today (April 1, 2024), using the power of [Python decorators](https://www.youtube.com/watch?v=sEAz0kIRuVA), I am releasing a robust
 way of transforming regex-based XML parsers into universal, robust XML parsers.
 
