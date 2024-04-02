@@ -13,6 +13,7 @@ search for elements.
 Here we use `find_by="tag"` to search the XML document for elements of a given tag.
 
 ```Python
+import re
 from functools import partial
 from decorator import regex_for_xml
 
